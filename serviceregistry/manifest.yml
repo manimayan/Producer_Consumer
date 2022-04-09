@@ -1,0 +1,8 @@
+applications:
+- name: serviceregistry
+path: target/serviceregistry-0.0.1-SNAPSHOT
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- serviceregistry
