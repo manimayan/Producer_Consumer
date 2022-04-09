@@ -3,13 +3,21 @@
 #### The repository is a working prototype of modern day web application which leverages various tools and technologies such as, 
 
 ➲ [SpringBoot](https://spring.io/projects/spring-boot)
+
 ➲ [JPA](https://spring.io/projects/spring-data-jpa)
+
 ➲ [RabbitMQ](https://www.rabbitmq.com/)
+
 ➲ [Swagger API](https://swagger.io)
+
 ➲ [Config Server](https://dzone.com/articles/using-spring-config-server)
+
 ➲ [Circuit Breaker](https://spring.io/projects/spring-cloud-circuitbreaker)
+
 ➲ [Service Registry](https://spring.io/guides/gs/service-registration-and-discovery/)
+
 ➲ [Redis Cache](https://www.journaldev.com/18141/spring-boot-redis-cache) 
+
 ➲ [Sonar Lint](https://www.sonarlint.org/)
 
 
@@ -26,19 +34,24 @@
 Both Producer and Consumer Applications are enabled with SwaggerAPI, Circuit breaker to handle API fall backs, REDIS Cache which enables in-memory data store for faster data retrieval. 
 
 The below are the URL's involved in running the prototype,
+##### Swagger
 ```sh
-Swagger 	 			- http://localhost:8081/swagger-ui.html
+ http://localhost:8081/swagger-ui.html
 ```
+##### eureka-service-registry
 ```sh
-eureka-service-registry - http://localhost:8761/
+ http://localhost:8761/
 ```
+##### RabbitMQ
 ```sh
-rabbitMQ 	 			- http://localhost:15672/
+http://localhost:15672/
 ```
+##### Config-Server
 ```sh
-config-server 			- http://localhost:8888/appname/environment
+http://localhost:8888/appname/environment
 ```
+##### Circuit Breaker
 ```sh
-circuit breaker 		- http://localhost:8081/hystrix/
+ http://localhost:8081/hystrix/
 ```
 
